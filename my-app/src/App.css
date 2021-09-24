@@ -1,0 +1,50 @@
+.Top-Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.Top-Header img {
+  width: 230px;
+}
+.Top-Header ul {
+  display: flex;
+}
+.Top-Header ul li {
+  list-style: none;
+  margin: 8px;
+}
+.Top-Header ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: black;
+}
+.Upper-Footer {
+  display: flex;
+  justify-content: center;
+}
+.Lower-Footer {
+  display: flex;
+  justify-content: space-around;
+}
+.Lower-Footer ul li h5 {
+  font-size: 16px;
+}
+.Lower-Footer ul li {
+  list-style: none;
+  margin: 8px;
+  margin-right: 2px;
+}
+.Lower-Footer ul li a {
+  text-decoration: none;
+  color: black;
+}
+.Lower-Footer ul li a:hover {
+  text-decoration: underline;
+}
+.Lower-Footer ul li a img {
+  width: 150px;
+}
+.nav-item .nav-link {
+  font-weight: bolder;
+}
