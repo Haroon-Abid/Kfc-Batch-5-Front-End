@@ -8,6 +8,7 @@ import Location from './pages/Location'
 import Contact from './pages/Contact';
 import Products from './pages/Products';
 import Detail from './pages/Detail';
+import Register from './pages/Register';
 import React from "react";
 import {
   BrowserRouter as Router,
@@ -30,6 +31,7 @@ function App() {
       <Route exact path="/Contact" component={Contact}/>
       <Route exact path="/Collection/:Category" component={Products}/>
       <Route exact path="/Product/:Prod" component={Detail}/>
+      <Route exact path="/Register" component={Register}/>
 
     </Switch>
     <Contact/>

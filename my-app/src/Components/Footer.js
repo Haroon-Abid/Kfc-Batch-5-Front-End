@@ -5,6 +5,7 @@ import appstore from '../assets/app-store.png'
 const Footer = () => {
     return (
         <div className="Footer">
+            <hr />
             <div className="Upper-Footer mt-4 mb-4">
                 <img src = {footerlogo} alt=""/>
             </div>
