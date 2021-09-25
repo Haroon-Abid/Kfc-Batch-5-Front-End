@@ -7,6 +7,7 @@ import Login from './pages/Login'
 import Location from './pages/Location'
 import Contact from './pages/Contact';
 import Products from './pages/Products';
+import Detail from './pages/Detail';
 import React from "react";
 import {
   BrowserRouter as Router,
@@ -28,6 +29,8 @@ function App() {
       <Route exact path="/Location" component={Location}/>
       <Route exact path="/Contact" component={Contact}/>
       <Route exact path="/Collection/:Category" component={Products}/>
+      <Route exact path="/Product/:Prod" component={Detail}/>
+
     </Switch>
     <Contact/>
     {/* <Home/>
